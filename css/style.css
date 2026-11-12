@@ -1,0 +1,360 @@
+:root {
+  --soc-color: #4a5565;
+}
+
+/* -----------------------------navbar--------------------------- */
+
+.navbar {
+  --bs-body-bg-rgb: 255, 255, 255;
+  background-color: #fff !important;
+  padding: 14px 0;
+  border-bottom: 1px solid #f1e7d6;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
+
+.brand-logo {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff6a00, #ff3d3d);
+  color: #fff;
+  font-size: 20px;
+  box-shadow: 0 6px 14px rgba(255, 90, 30, 0.35);
+}
+
+.brand-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: #111827;
+  line-height: 1.2;
+}
+
+.brand-sub {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.navbar-nav {
+  gap: 10px;
+}
+
+.nav-icon {
+  color: #374151;
+  font-size: 20px;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.nav-icon:hover {
+  color: #ff6a00;
+}
+
+.nav-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #f5b971;
+}
+
+.navbar-toggler {
+  border-color: #f1e7d6;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 3px rgba(255, 106, 0, 0.25);
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #f1e7d6;
+  }
+  .border-rd2 {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .brand-title {
+    font-size: 20px;
+  }
+  .brand-sub {
+    font-size: 12px;
+  }
+  .brand-logo {
+    width: 44px;
+    height: 44px;
+  }
+}
+/* -----------------------------navbar--------------------------- */
+.hero {
+  padding: 32px 24px;
+  background-color: #fffcea;
+}
+.mb {
+  margin-bottom: 12px;
+}
+.img {
+  height: 750px;
+}
+img {
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+}
+.border-rd {
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+.border-rd2 {
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+}
+.s {
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.s1 {
+  margin-right: 12px;
+  background-color: #dbfce7;
+  color: #238236;
+}
+.s2 {
+  background-color: #dbeafe;
+  color: #1463ec;
+}
+#dec {
+  color: var(--soc-color);
+  margin: 0;
+}
+.i {
+  color: #f54900;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background-color: #ffedd4;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.i:hover {
+  background-color: #ffd6a7;
+}
+#nav-tab {
+  border: none;
+  border-bottom: 1px solid #e5e7eb;
+}
+#nav-tab .nav-link {
+  border: none;
+  color: #79808f;
+  justify-content: center;
+  font-weight: 600;
+}
+#nav-tab .nav-link.active:hover {
+  color: #364153;
+}
+
+#nav-tab .nav-link.active {
+  color: #f5520c;
+  border-bottom: solid #f5520c 2px;
+}
+#nav-tabContent {
+  height: 350px;
+  overflow-y: auto;
+}
+#nav-tabContent #nav-home {
+  background-color: #fff9ec;
+}
+#nav-home .ing-sp {
+  width: 24px;
+  height: 24px;
+  background-color: #f5520c;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+#nav-home .nut-sp {
+  width: 24px;
+  height: 24px;
+  background-color: #f5520c;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+#nav-profile .nut-sp {
+  min-width: 48px;
+  height: 48px;
+  background-color: #f5520c;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.item {
+  width: 48%;
+  background-color: #f9fafb;
+  border-radius: 12px;
+}
+.item p {
+  font-size: 20px;
+  font-weight: 700;
+}
+.item .text span {
+  font-weight: 600;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  color: #f54900;
+  background-color: #ffedd4;
+  margin-right: 12px;
+  border-radius: 8px;
+}
+.icon1 {
+  color: #f54900;
+  background-color: #ffedd4;
+}
+.icon2 {
+  color: #155dfc;
+  background-color: #dbeafe;
+}
+.icon3 {
+  color: #d08700;
+  background-color: #fef9c2;
+}
+.icon4 {
+  color: #e7000b;
+  background-color: #ffe2e2;
+}
+.icon5 {
+  color: #00a63e;
+  background-color: #dbfce7;
+}
+.icon6 {
+  color: #e60076;
+  background-color: #fce7f3;
+}
+.note {
+  background-color: #fffbeb;
+  border-left: 4px solid #ffb900;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.note .true {
+  width: 20px;
+  height: 20px;
+  background-color: #e17100;
+  margin-right: 12px;
+  margin-top: 4px;
+  font-size: 12px;
+}
+.b {
+  margin-top: 32px;
+  border-top: 1px solid #e5e7eb;
+  display: flex;
+}
+.btn {
+  background: linear-gradient(90deg, #ff6a00, #ff2d3f);
+  padding: 12px 24px;
+  transition: 0.4s;
+  font-weight: 600;
+}
+.btn:hover {
+  background: linear-gradient(to left, #ff2d3f, #ff2d3f);
+  transform: scale(1.1);
+}
+
+.img {
+  position: relative;
+  height: 100%;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.meal-info {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  right: 25px;
+  background: rgba(255, 255, 255, 0.92);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+  padding: 20px 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.info-icon {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.info-icon.clock {
+  color: #ff6a00;
+}
+
+.info-icon.fire {
+  color: #e8383d;
+}
+
+.info-icon.users {
+  color: #2b7fff;
+}
+
+.info-label {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.info-value {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111827;
+}
+@media (max-width: 991.98px) {
+  .border-rd2 {
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 18px;
+  }
+  .border-rd {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+  }
+}
+.rating-badge {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  gap: 8px;
+  background: #fff;
+  border-radius: 50px;
+  padding: 10px 22px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  z-index: 2;
+}
+
+.rating-badge i {
+  color: #fbbf24;
+  font-size: 18px;
+}
+
+.rating-num {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.rating-count {
+  font-size: 14px;
+  color: #6b7280;
+}
